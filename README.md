@@ -16,9 +16,9 @@ and lastly we are going to need to install OpenAI
 pip install openai
 ```
 Once these packages are installed lets create a new file called vectorizer.py 
-make sure to add your Atlas connection string - and your openAI key The code simply gets the user input, 
-generates the embedding and performs the search, printing out some of the fields of the returned data. 
-You can play around with different input strings to check the performance.
+What this code does is get every document in the database, concatenate various fields (name, summary, space, 
+description, transit and price) within each data entry into an input string which is then fed to OpenAI to generate 
+the embedding that will hold the semantic meaning of the input string
 
 ```
 import pymongo
