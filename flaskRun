@@ -1,1 +1,0 @@
-flask --debug --app server run
