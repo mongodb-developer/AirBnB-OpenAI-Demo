@@ -15,7 +15,9 @@ and lastly we are going to need to install OpenAI
 pip install openai
 ```
 Once these packages are installed lets create a new file called vectorizer.py 
-make sure to add your Atlas connection string - and your openAI key 
+make sure to add your Atlas connection string - and your openAI key The code simply gets the user input, 
+generates the embedding and performs the search, printing out some of the fields of the returned data. 
+You can play around with different input strings to check the performance.
 
 ```
 import pymongo
