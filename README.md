@@ -4,16 +4,16 @@ We are using the sample_airbnb.listingsAndReviews namespace
 
 First lets install pymongo
 ```
-pip install pymongo
+pip3 install pymongo
 ```
 
 Then lets install numpy
 ```
-pip install numpy
+pip3 install numpy
 ```
 and lastly we are going to need to install OpenAI
 ```
-pip install openai
+pip3 install openai
 ```
 Once these packages are installed lets create a new file called vectorizer.py 
 What this code does is get every document in the database, concatenate various fields (name, summary, space, 
